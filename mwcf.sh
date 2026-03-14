@@ -427,7 +427,6 @@ detect_socks5_port_40000() {
   fi
   echo "Off"; return 1
 }
-
 CACHE_TTL=4
 __cache_v4_ts=0; __cache_v6_ts=0; __cache_s5_ts=0
 __cache_v4_val=""; __cache_v6_val=""; __cache_s5_val=""
