@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 echo -e "\e[33m[•] Memulai setup repository dan instalasi NGINX versi terbaru...\e[0m"
 
 # Step 1: Persiapan awal
