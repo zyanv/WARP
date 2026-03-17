@@ -29,7 +29,6 @@ RAMMS=$(free -m | awk 'NR==2 {print $2}')
 KEY="2145515560:AAE9WqfxZzQC-FYF1VUprICGNomVfv6OdTU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 REPO="https://raw.githubusercontent.com/zyanv/WARP/main/"
-websc=https://raw.githubusercontent.com/zyanv/AUTOSCRIPT/main
 APT="apt-get -y install"
 start=$(date +%s)
 
@@ -57,7 +56,6 @@ clear
 
 # download menu
 cd /usr/sbin
-wget -O warp "${REPO}mwcf.sh"
 wget -O warp2 "${REPO}warp.sh"
 
 # subcommand
