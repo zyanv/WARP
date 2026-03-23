@@ -56,10 +56,10 @@ clear
 
 # download menu
 cd /usr/sbin
-wget -O warp "${REPO}mwcf.sh"
+wget -O menu-warp "${REPO}mwcf.sh"
 wget -O warp2 "${REPO}warp.sh"
 
 # subcommand
-chmod +x warp
+chmod +x menu-warp
 chmod +x warp2
 
